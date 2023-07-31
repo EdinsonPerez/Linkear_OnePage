@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed; /* Añadimos esta propiedad para que el navbar sea fijo */
+    top: 0; /* Lo posicionamos en la parte superior */
+    width: 100%; /* Le asignamos el 100% de ancho */
+    z-index: 999; /* Asignamos un valor alto al z-index para que quede por encima del contenido */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  section:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  /* Añadimos estilos para el navbar fijo */
+nav.fixed {
+    position: fixed;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
